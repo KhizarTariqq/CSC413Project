@@ -1,9 +1,9 @@
 import numpy as np
-from tensorflow.python.keras.models import Sequential
-from tensorflow.python.keras.layers import Dense, Activation
-from tensorflow.python.keras.layers import LSTM
-from tensorflow.python.keras.optimizers import RMSprop
-from tensorflow.python.keras.callbacks import LambdaCallback, ModelCheckpoint, ReduceLROnPlateau
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation
+from tensorflow.keras.layers import LSTM
+from tensorflow.keras.optimizers import RMSprop
+from tensorflow.keras.callbacks import LambdaCallback, ModelCheckpoint, ReduceLROnPlateau
 import sys
 import random
 
