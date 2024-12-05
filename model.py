@@ -9,7 +9,7 @@ import random
 
 # Begin by processing the data to create a dataset that we will use to train our model
 # Data processing parameters
-sequence_length = 40 # The length of the sequence the model will use to make a prediction on
+sequence_length = 75 # The length of the sequence the model will use to make a prediction on
 step_size = 3 # How much to step by when creating the next training sequence (greater step
               # implies less sequences and each one is more unique due to less overlap)
 
